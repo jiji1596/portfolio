@@ -1,0 +1,75 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=VT323&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+@import url("components/cards.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/aboutme.css");
+
+/* Utilities */
+
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #DADDD8;
+  color: #090C08;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+}
+
+
+
+h1, h2, h3, h4 {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.section-container {
+  height: 50vh;
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bold-green {
+  color: #FCA311;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

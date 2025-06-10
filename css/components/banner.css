@@ -1,0 +1,59 @@
+.banner {
+  padding: 0px 40px;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-gap: 80px;
+  height: 100vh;
+  width: 100vw;
+}
+
+.banner-info {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+}
+
+
+.banner-image {
+  margin-left:32px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.banner img {
+  width: 320px;
+  border-radius: 0;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+}
+
+
+.banner-info h1 {
+  margin: 0;
+}
+
+.banner-info p {
+  font-size: 20px;
+}
+
+
+@media (min-width: 100px) and (max-width: 575px) {
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
