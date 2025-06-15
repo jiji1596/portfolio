@@ -1,9 +1,6 @@
-.card-header {
+/* .card-header {
   background-color: #090C08;
-  /* border-top-left-radius: 24px;
-  border-top-right-radius: 24px; */
-    box-shadow: 0px 5px black, 0px -5px black, 5px 0px black, -5px 0px black, 0px 10px #00000038, 5px 5px #00000038, -5px 5px #00000038, inset 0px 5px #ffffff36 ;
-
+  box-shadow: 0px 5px black, 0px -5px black, 5px 0px black, -5px 0px black, 0px 10px #00000038, 5px 5px #00000038, -5px 5px #00000038, inset 0px 5px #ffffff36 ;
   padding-top: 16px;
   padding-bottom: 16px;
   margin-bottom: 16px;
@@ -16,18 +13,10 @@
 
 }
 
-.cards img {
-  object-fit: cover;
-  object-position: center;
-  height: 150px;
-  width: 150px;
-}
-
 .card {
   padding: 0;
   border: 1px solid #090C08;
     overflow-x: hidden;
-  /* border-radius: 24px; */
 }
 
 .card .info-padding {
@@ -103,4 +92,62 @@
   .card {
     margin: 0;
   }
+}
+
+ */
+
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.card {
+  width: 300px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 1.5rem;
+  opacity: 0;
+  /* transform: translateY(50px);
+  transition: transform 0.4s ease, opacity 0.4s ease; */
+}
+
+.card img {
+  object-fit: cover;
+  object-position: center;
+  height: 150px;
+  width: 150px;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.4rem;
+}
+
+.card p {
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: #333;
+}
+
+.card button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.card button:hover {
+  background-color: #0056b3;
 }
